@@ -4612,11 +4612,11 @@ Created using IcoMoon - icomoon.io
 }
 
 .navbar .navbar-brand {
-  text-transform: uppercase;
-  font-size: 0.8571em;
+  font-size: 2em;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   line-height: 1.625rem;
+  font-weight: bold;
 }
 
 .navbar .navbar-toggler {
@@ -6079,6 +6079,9 @@ img {
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
   /* Standard syntax */
+}
+.clear-filter[filter-color="darkBlue"] {
+  background: rgba(44, 47, 116, 0.8)
 }
 
 .section-story-overview {
