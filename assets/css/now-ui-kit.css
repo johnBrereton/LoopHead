@@ -5981,6 +5981,7 @@ img {
 }
 
 .page-header {
+  min-height: 100vh;
   max-height: 999px;
   padding: 0;
   color: #FFFFFF;
