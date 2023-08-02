@@ -3691,6 +3691,7 @@ body {
 .main {
   position: relative;
   background: #FFFFFF;
+  margin-top: 100px;
 }
 
 /* Animations */
@@ -4681,7 +4682,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .bg-primary {
-  background-color: #f96332 !important;
+  background-color: #2C2F74 !important;
 }
 
 .bg-info {
@@ -5603,11 +5604,11 @@ img {
 }
 
 .index-page .page-header {
-  height: 125vh;
+  height: 80vh;
 }
 
 .index-page .page-header .container>.content-center {
-  top: 37%;
+  top: 50%;
 }
 
 .index-page .page-header .category-absolute {
@@ -5980,7 +5981,6 @@ img {
 }
 
 .page-header {
-  min-height: 100vh;
   max-height: 999px;
   padding: 0;
   color: #FFFFFF;
@@ -6272,6 +6272,10 @@ img {
 
 [data-background-color="black"] {
   background-color: #2c2c2c;
+}
+
+[data-background-color="footerGrey"] {
+  background-color: #E6E6E6;
 }
 
 [data-background-color]:not([data-background-color="gray"]) {
