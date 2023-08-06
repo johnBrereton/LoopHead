@@ -6,7 +6,6 @@ import React from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import IndexHeader from "components/Headers/IndexHeader.js";
 import DefaultFooter from "components/Footers/DefaultFooter.js";
 
 // sections for this page
@@ -41,8 +40,8 @@ function Index() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <IndexHeader />
         <div className="main">
+          <Images />
           <BasicElements />
           <Navbars />
           <Tabs />
