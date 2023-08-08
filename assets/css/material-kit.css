@@ -2971,7 +2971,7 @@ textarea.form-control-lg {
 .form-check {
   display: block;
   min-height: auto;
-  padding-left: 1.73em;
+  padding-left: 0;
   margin-bottom: 0.125rem;
 }
 
@@ -3037,11 +3037,11 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked[type="checkbox"] {
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  background-color: #E39F37;
 }
 
 .form-check-input:checked[type="radio"] {
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+  background-color: #E39F37;
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
