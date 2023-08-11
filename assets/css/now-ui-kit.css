@@ -2663,13 +2663,6 @@ fieldset[disabled] .btn-link.active {
   color: #2c2c2c;
 }
 
-.form-control:focus+.input-group-text,
-.form-control:focus~.input-group-text {
-  border: 1px solid #f96332;
-  border-left: none;
-  background-color: transparent;
-}
-
 .has-success .form-control,
 .has-error .form-control,
 .has-success .form-control:focus,
@@ -2735,245 +2728,6 @@ fieldset[disabled] .btn-link.active {
 .has-danger:after {
   content: "\ea53";
   color: #FF3636;
-}
-
-.form-group.no-border.input-lg .input-group-text,
-.input-group.no-border.input-lg .input-group-text {
-  padding: 15px 0 15px 19px;
-}
-
-.form-group.no-border.input-lg .form-control,
-.input-group.no-border.input-lg .form-control {
-  padding: 15px 19px;
-}
-
-.form-group.no-border.input-lg .form-control+.input-group-text,
-.input-group.no-border.input-lg .form-control+.input-group-text {
-  padding: 15px 19px 15px 0;
-}
-
-.form-group.input-lg .form-control,
-.input-group.input-lg .form-control {
-  padding: 14px 18px;
-}
-
-.form-group.input-lg .form-control+.input-group-text,
-.input-group.input-lg .form-control+.input-group-text {
-  padding: 14px 18px 14px 0;
-}
-
-.form-group.input-lg .input-group-text,
-.input-group.input-lg .input-group-text {
-  padding: 14px 0 15px 18px;
-}
-
-.form-group.input-lg .input-group-text+.form-control,
-.input-group.input-lg .input-group-text+.form-control {
-  padding: 15px 18px 15px 16px;
-}
-
-.form-group.no-border .form-control,
-.input-group.no-border .form-control {
-  padding: 11px 19px;
-}
-
-.form-group.no-border .form-control+.input-group-text,
-.input-group.no-border .form-control+.input-group-text {
-  padding: 11px 19px 11px 0;
-}
-
-.form-group.no-border .input-group-text,
-.input-group.no-border .input-group-text {
-  padding: 11px 0 11px 19px;
-}
-
-.form-group .form-control,
-.input-group .form-control {
-  padding: 10px 18px 10px 18px;
-}
-
-.form-group .form-control+.input-group-text,
-.input-group .form-control+.input-group-text {
-  padding: 10px 18px 10px 0;
-}
-
-.form-group .input-group-text,
-.input-group .input-group-text {
-  padding: 10px 0 10px 18px;
-}
-
-.form-group .input-group-text+.form-control,
-.form-group .input-group-text~.form-control,
-.input-group .input-group-text+.form-control,
-.input-group .input-group-text~.form-control {
-  padding: 10px 19px 11px 16px;
-}
-
-.form-group.no-border .form-control,
-.form-group.no-border .form-control+.input-group-text,
-.input-group.no-border .form-control,
-.input-group.no-border .form-control+.input-group-text {
-  background-color: rgba(222, 222, 222, 0.3);
-  border: medium none;
-}
-
-.form-group.no-border .form-control:focus,
-.form-group.no-border .form-control:active,
-.form-group.no-border .form-control:active,
-.form-group.no-border .form-control+.input-group-text:focus,
-.form-group.no-border .form-control+.input-group-text:active,
-.form-group.no-border .form-control+.input-group-text:active,
-.input-group.no-border .form-control:focus,
-.input-group.no-border .form-control:active,
-.input-group.no-border .form-control:active,
-.input-group.no-border .form-control+.input-group-text:focus,
-.input-group.no-border .form-control+.input-group-text:active,
-.input-group.no-border .form-control+.input-group-text:active {
-  border: medium none;
-  background-color: rgba(222, 222, 222, 0.5);
-}
-
-.form-group.no-border .form-control:focus+.input-group-text,
-.input-group.no-border .form-control:focus+.input-group-text {
-  background-color: rgba(222, 222, 222, 0.5);
-}
-
-.form-group.no-border .input-group-prepend .input-group-text,
-.input-group.no-border .input-group-prepend .input-group-text {
-  background-color: rgba(222, 222, 222, 0.3);
-  border: none;
-  border-left: transparent !important;
-}
-
-.form-group.no-border.input-group-focus.no-border .input-group-text,
-.input-group.no-border.input-group-focus.no-border .input-group-text {
-  background-color: rgba(222, 222, 222, 0.5);
-}
-
-.has-error .form-control-feedback,
-.has-error .control-label {
-  color: #FF3636;
-}
-
-.has-success .form-control-feedback,
-.has-success .control-label {
-  color: #18ce0f;
-}
-
-.input-group-text {
-  background-color: #FFFFFF;
-  border: 1px solid #E3E3E3;
-  border-radius: 30px;
-  color: #555555;
-  -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  -moz-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  -ms-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-
-.input-group-focus .input-group-text {
-  background-color: #FFFFFF;
-  border-color: #f96332;
-}
-
-.has-success .input-group-text,
-.has-danger .input-group-text {
-  background-color: #FFFFFF;
-}
-
-.has-danger .form-control:focus+.input-group-text {
-  color: #FF3636;
-}
-
-.has-success .form-control:focus+.input-group-text {
-  color: #18ce0f;
-}
-
-.input-group-text+.form-control,
-.input-group-text~.form-control {
-  padding: -0.5rem 0.7rem;
-  padding-left: 18px;
-}
-
-.input-group-text i {
-  width: 17px;
-}
-
-.input-group,
-.form-group {
-  margin-bottom: 10px;
-  position: relative;
-}
-
-.input-group[disabled] .input-group-text {
-  background-color: #E3E3E3;
-}
-
-.input-group .input-group-prepend,
-.form-group .input-group-prepend {
-  margin-right: 0;
-}
-
-.input-group .input-group-prepend .input-group-text,
-.form-group .input-group-prepend .input-group-text {
-  border-left: 1px solid #E3E3E3;
-}
-
-.input-group .input-group-append .input-group-text,
-.form-group .input-group-append .input-group-text {
-  border-right: 1px solid #E3E3E3;
-  padding: 10px 18px 10px 0;
-}
-
-.input-group.input-group-focus .input-group-prepend .input-group-text,
-.form-group.input-group-focus .input-group-prepend .input-group-text {
-  border-left: 1px solid #f96332;
-}
-
-.input-group.input-group-focus .input-group-append .input-group-text,
-.form-group.input-group-focus .input-group-append .input-group-text {
-  border-right: 1px solid #f96332;
-}
-
-.input-group.input-group-focus.no-border .input-group-prepend .input-group-text,
-.form-group.input-group-focus.no-border .input-group-prepend .input-group-text {
-  border-left: transparent;
-}
-
-.input-group .form-control:first-child,
-.input-group-text:first-child,
-.input-group-btn:first-child>.dropdown-toggle,
-.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
-  border-right: 0 none;
-}
-
-.input-group .form-control:last-child,
-.input-group-text:last-child,
-.input-group-btn:last-child>.dropdown-toggle,
-.input-group-btn:first-child>.btn:not(:first-child) {
-  border-left: 0 none;
-}
-
-.form-control[disabled],
-.form-control[readonly],
-fieldset[disabled] .form-control {
-  background-color: #E3E3E3;
-  color: #888888;
-  cursor: not-allowed;
-}
-
-.input-group-btn .btn {
-  border-width: 1px;
-  padding: 11px 0.7rem;
-}
-
-.input-group-btn .btn-default:not(.btn-fill) {
-  border-color: #DDDDDD;
-}
-
-.input-group-btn:last-child>.btn {
-  margin-left: 0;
 }
 
 textarea.form-control {
@@ -4475,6 +4229,20 @@ Created using IcoMoon - icomoon.io
   font-weight: bold;
 }
 
+.navbar .navbar-brand-collapse {
+  font-size: 2em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.625rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-brand-collapse {
+    display: none;
+  }
+}
+
 .navbar .navbar-toggler {
   width: 37px;
   height: 27px;
@@ -5755,56 +5523,6 @@ img {
 .login-page .card-login.card-plain .input-group.no-border .form-control {
   background-color: rgba(255, 255, 255, 0.1);
   color: #FFFFFF;
-}
-
-.login-page .card-login.card-plain .form-group.no-border .form-control:focus,
-.login-page .card-login.card-plain .form-group.no-border .form-control:active,
-.login-page .card-login.card-plain .form-group.no-border .form-control:active,
-.login-page .card-login.card-plain .input-group.no-border .form-control:focus,
-.login-page .card-login.card-plain .input-group.no-border .form-control:active,
-.login-page .card-login.card-plain .input-group.no-border .form-control:active {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #FFFFFF;
-}
-
-.login-page .card-login.card-plain .form-group.no-border .form-control+.input-group-text,
-.login-page .card-login.card-plain .input-group.no-border .form-control+.input-group-text {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.login-page .card-login.card-plain .form-group.no-border .form-control+.input-group-text:focus,
-.login-page .card-login.card-plain .form-group.no-border .form-control+.input-group-text:active,
-.login-page .card-login.card-plain .form-group.no-border .form-control+.input-group-text:active,
-.login-page .card-login.card-plain .input-group.no-border .form-control+.input-group-text:focus,
-.login-page .card-login.card-plain .input-group.no-border .form-control+.input-group-text:active,
-.login-page .card-login.card-plain .input-group.no-border .form-control+.input-group-text:active {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #FFFFFF;
-}
-
-.login-page .card-login.card-plain .form-group.no-border .form-control:focus+.input-group-text,
-.login-page .card-login.card-plain .input-group.no-border .form-control:focus+.input-group-text {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #FFFFFF;
-}
-
-.login-page .card-login.card-plain .form-group.no-border .input-group-text,
-.login-page .card-login.card-plain .input-group.no-border .input-group-text {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: none;
-  color: #FFFFFF;
-}
-
-.login-page .card-login.card-plain .form-group.no-border.input-group-focus .input-group-text,
-.login-page .card-login.card-plain .input-group.no-border.input-group-focus .input-group-text {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #FFFFFF;
-}
-
-.login-page .card-login.card-plain .input-group-text,
-.login-page .card-login.card-plain .form-group.no-border .input-group-text,
-.login-page .card-login.card-plain .input-group.no-border .input-group-text {
-  color: rgba(255, 255, 255, 0.8);
 }
 
 .login-page .link {
