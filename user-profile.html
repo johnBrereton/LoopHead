@@ -107,22 +107,22 @@
           <div>
             <div class="row" style="gap: 20px;">
               <div class="col" style="padding-top: 16px; justify-content: flex-start; align-items: baseline; gap: 40px; display: flex">
-                <div style="align-self: stretch; justify-content: center; align-items: baseline; gap: 8px; display: flex">
+                <button data-toggle="modal" data-target="#followers" style="align-self: stretch; justify-content: center; align-items: baseline; gap: 8px; display: flex; background: none; border: none">
                   <div style="color: #2C2F74; font-size: 24px; font-family: Inter; font-weight: 700; line-height: 30px; word-wrap: break-word">
                     110
                   </div>
                   <div style="color: #797979; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 30px; word-wrap: break-word">
                     followers
                   </div>
-                </div>
-                <div style="align-self: stretch; justify-content: flex-start; align-items: baseline; gap: 8px; display: flex">
+                </button>
+                <button data-toggle="modal" data-target="#following" style="align-self: stretch; justify-content: flex-start; align-items: baseline; gap: 8px; display: flex; background: none; border: none">
                   <div style="color: #2C2F74; font-size: 24px; font-family: Inter; font-weight: 700; line-height: 30px; word-wrap: break-word">
                     32
                   </div>
                   <div style="color: #797979; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 30px; word-wrap: break-word">
                     following
                   </div>
-                </div>
+                </button>
               </div>
 
               <a class="col" href="#"style="padding-left: 60px; padding-right: 60px; padding-top: 16px; padding-bottom: 16px; background: #2C2F74; border-radius: 10px; justify-content: center; align-items: flex-start; gap: 10px; display: flex">
@@ -180,8 +180,117 @@
         </div>
       </div>
     </div>
-    
   </div>
+  <!-- Sart Modals -->
+  <div class="modal fade" id="followers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.10)">
+          <div class="row">
+            <button type="button" class="close col-2" data-dismiss="modal" aria-hidden="true">
+              <i class="now-ui-icons ui-1_simple-remove" style="color:black"></i>
+            </button>
+            <div class="col-6">
+              <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 0px; display: inline-flex">
+                <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 0px; display: flex">
+                  <div style="justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+                    <div style="color: #444445; font-size: 28px; font-family: Inter; font-weight: 700; word-wrap: break-word">Followers</div>
+                    <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                      <img style="width: 50px;" src="assets/img/logo.png" />
+                      <img style="width: 50px;" src="assets/img/logo-secondary.png" />
+                    </div>
+                  </div>
+                <div style="color: #797979; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word; padding-bottom: 10px;">People that follow you</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" style="padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; background: white; border-radius: 10px; overflow: hidden; border: 0.50px #888888 solid; gap: 8px; height: 50px">
+              <label class="fas fa-search" style="color: #888888; padding-right: 8px;"></label>
+              <input type="search" placeholder="Search" style="font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word; border-style: none; outline: none; width: 80%">
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-body scroll" style="height: 300px; overflow:auto; margin-top: 10px; margin-left: 50px">
+          <div style="width: 100%; height: 90px; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
+            <img style="width: 60px; height: 60px; border-radius: 9999px" src="assets/img/9c9399a6ce8acca9ee8836ce50463c1b.jpeg" />
+            <div style="color: #2C2F74; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">@JoshWilson</div>
+          </div>
+          <div style="width: 100%; height: 90px; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
+            <img style="width: 60px; height: 60px; border-radius: 9999px" src="assets/img/9c9399a6ce8acca9ee8836ce50463c1b.jpeg" />
+            <div style="color: #2C2F74; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">@JoshWilson</div>
+          </div>
+          <div style="width: 100%; height: 90px; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
+            <img style="width: 60px; height: 60px; border-radius: 9999px" src="assets/img/9c9399a6ce8acca9ee8836ce50463c1b.jpeg" />
+            <div style="color: #2C2F74; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">@JoshWilson</div>
+          </div>
+          <div style="width: 100%; height: 90px; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
+            <img style="width: 60px; height: 60px; border-radius: 9999px" src="assets/img/9c9399a6ce8acca9ee8836ce50463c1b.jpeg" />
+            <div style="color: #2C2F74; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">@JoshWilson</div>
+          </div>
+          <div style="width: 100%; height: 90px; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
+            <img style="width: 60px; height: 60px; border-radius: 9999px" src="assets/img/9c9399a6ce8acca9ee8836ce50463c1b.jpeg" />
+            <div style="color: #2C2F74; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">@JoshWilson</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="following" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.10)">
+          <div class="row">
+            <button type="button" class="close col-2" data-dismiss="modal" aria-hidden="true">
+              <i class="now-ui-icons ui-1_simple-remove" style="color:black"></i>
+            </button>
+            <div class="col-6">
+              <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 0px; display: inline-flex">
+                <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 0px; display: flex">
+                  <div style="justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+                    <div style="color: #444445; font-size: 28px; font-family: Inter; font-weight: 700; word-wrap: break-word">Following</div>
+                    <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                      <img style="width: 50px;" src="assets/img/logo.png" />
+                      <img style="width: 50px;" src="assets/img/logo-secondary.png" />
+                    </div>
+                  </div>
+                <div style="color: #797979; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word; padding-bottom: 10px;">People you follow</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4" style="padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; background: white; border-radius: 10px; overflow: hidden; border: 0.50px #888888 solid; gap: 8px; height: 50px">
+              <label class="fas fa-search" style="color: #888888; padding-right: 8px;"></label>
+              <input type="search" placeholder="Search" style="font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word; border-style: none; outline: none; width: 80%">
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-body scroll" style="height: 300px; overflow:auto; margin-top: 10px; margin-left: 50px">
+          <div style="width: 100%; height: 90px; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
+            <img style="width: 60px; height: 60px; border-radius: 9999px" src="assets/img/9c9399a6ce8acca9ee8836ce50463c1b.jpeg" />
+            <div style="color: #2C2F74; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">@JoshWilson</div>
+          </div>
+          <div style="width: 100%; height: 90px; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
+            <img style="width: 60px; height: 60px; border-radius: 9999px" src="assets/img/9c9399a6ce8acca9ee8836ce50463c1b.jpeg" />
+            <div style="color: #2C2F74; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">@JoshWilson</div>
+          </div>
+          <div style="width: 100%; height: 90px; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
+            <img style="width: 60px; height: 60px; border-radius: 9999px" src="assets/img/9c9399a6ce8acca9ee8836ce50463c1b.jpeg" />
+            <div style="color: #2C2F74; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">@JoshWilson</div>
+          </div>
+          <div style="width: 100%; height: 90px; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
+            <img style="width: 60px; height: 60px; border-radius: 9999px" src="assets/img/9c9399a6ce8acca9ee8836ce50463c1b.jpeg" />
+            <div style="color: #2C2F74; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">@JoshWilson</div>
+          </div>
+          <div style="width: 100%; height: 90px; justify-content: flex-start; align-items: center; gap: 32px; display: inline-flex">
+            <img style="width: 60px; height: 60px; border-radius: 9999px" src="assets/img/9c9399a6ce8acca9ee8836ce50463c1b.jpeg" />
+            <div style="color: #2C2F74; font-size: 20px; font-family: Inter; font-weight: 700; word-wrap: break-word">@JoshWilson</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  End Modals -->
   <!-- Footer -->
   <footer class="footer" data-background-color="footerGrey">
     <div class="container ">

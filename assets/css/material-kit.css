@@ -6498,7 +6498,7 @@ fieldset:disabled .btn {
 
 .modal {
   --bs-modal-zindex: 1050;
-  --bs-modal-width: 500px;
+  --bs-modal-width: 700px;
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;
   --bs-modal-color: ;
