@@ -186,27 +186,29 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header" style="box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.10)">
-          <div class="row">
-            <button type="button" class="close col-2" data-dismiss="modal" aria-hidden="true">
-              <i class="now-ui-icons ui-1_simple-remove" style="color:black"></i>
-            </button>
+          <div class="row" style="width: 100%">
+            <div class="col-1" style="padding-top: 20px">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                <i class="now-ui-icons ui-1_simple-remove" style="color:black"></i>
+              </button>
+            </div>
             <div class="col-6">
               <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 0px; display: inline-flex">
                 <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 0px; display: flex">
                   <div style="justify-content: center; align-items: center; gap: 8px; display: inline-flex">
                     <div style="color: #444445; font-size: 28px; font-family: Inter; font-weight: 700; word-wrap: break-word">Followers</div>
-                    <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
-                      <img style="width: 50px;" src="assets/img/logo.png" />
-                      <img style="width: 50px;" src="assets/img/logo-secondary.png" />
+                    <div style="justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex" class="hidden-mobile">
+                      <img style="width: 50px;" src="assets/img/logo.png" class="hidden-mobile"/>
+                      <img style="width: 50px;" src="assets/img/logo-secondary.png" class="hidden-mobile"/>
                     </div>
                   </div>
                 <div style="color: #797979; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word; padding-bottom: 10px;">People that follow you</div>
                 </div>
               </div>
             </div>
-            <div class="col-4" style="padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; background: white; border-radius: 10px; overflow: hidden; border: 0.50px #888888 solid; gap: 8px; height: 50px">
+            <div class="col-5" style="padding-left: 12px; padding-right: 12px; padding-top: 12px; padding-bottom: 12px; background: white; border-radius: 10px; overflow: hidden; border: 0.50px #888888 solid; gap: 8px; height: 50px">
               <label class="fas fa-search" style="color: #888888; padding-right: 8px;"></label>
-              <input type="search" placeholder="Search" style="font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word; border-style: none; outline: none; width: 80%">
+              <input type="search" placeholder="Search" style="font-size: 16px; font-family: Inter; font-weight: 300; word-wrap: break-word; border-style: none; outline: none; width: 70%">
             </div>
           </div>
 
