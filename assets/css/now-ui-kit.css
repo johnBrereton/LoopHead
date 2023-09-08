@@ -2160,8 +2160,8 @@ fieldset[disabled] .btn-danger.active {
 .show>.btn-neutral.dropdown-toggle,
 .show>.btn-neutral.dropdown-toggle:focus,
 .show>.btn-neutral.dropdown-toggle:hover {
-  background-color: #FFFFFF;
-  color: #FFFFFF;
+  background-color: #2C2F74;
+  color: #2C2F74;
   box-shadow: none;
 }
 
@@ -5598,7 +5598,7 @@ img {
   color: #FFFFFF;
   padding: 0 15px;
   width: 100%;
-  max-width: 880px;
+  max-width: 1000px;
 }
 
 .page-header footer {

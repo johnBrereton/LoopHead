@@ -3037,16 +3037,16 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked[type="checkbox"] {
-  background-color: #E39F37;
+  background-color: #2C2F74;
 }
 
 .form-check-input:checked[type="radio"] {
-  background-color: #E39F37;
+  background-color: #2C2F74;
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
-  background-color: #E39F37;
-  border-color: #E39F37;
+  background-color: #2C2F74;
+  border-color: #2C2F74;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 
@@ -3708,7 +3708,7 @@ fieldset:disabled .btn {
 
 .btn-primary {
   --bs-btn-color: #000;
-  --bs-btn-bg: #E39F37;
+  --bs-btn-bg: #2C2F74;
   --bs-btn-border-color: #E39F37;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #ec407a;
@@ -4667,7 +4667,7 @@ fieldset:disabled .btn {
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
   isolation: isolate;
-  border-color: var(--bs-nav-tabs-link-hover-border-color);
+  border-color: var(--bs-nav-tabs-link-hover-border-color);;
 }
 
 .nav-tabs .nav-link.disabled,
@@ -22529,7 +22529,7 @@ body.dark-version {
 
 .form-check:not(.form-switch) .form-check-input[type="checkbox"]:checked,
 .form-check:not(.form-switch) .form-check-input[type="radio"]:checked {
-  border-color: #E39F37;
+  border-color: #2C2F74;
 }
 
 .form-check:not(.form-switch) .form-check-input[type="checkbox"] {
@@ -22552,7 +22552,7 @@ body.dark-version {
 }
 
 .form-check:not(.form-switch) .form-check-input[type="checkbox"]:checked {
-  background: #E39F37;
+  background: #2C2F74;
 }
 
 .form-check:not(.form-switch) .form-check-input[type="checkbox"]:checked:after {
