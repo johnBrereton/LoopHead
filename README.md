@@ -12,4 +12,4 @@
 * [Settings](https://johnbrereton.github.io/LoopHead/settings.html)
 * [Login](https://johnbrereton.github.io/LoopHead/login.html)
 * [Signup](https://johnbrereton.github.io/LoopHead/signup.html)
-* [Forgot Password](https://johnbrereton.github.io/LoopHead/signup.html)
+* [Forgot Password](https://johnbrereton.github.io/LoopHead/forgot-password.html)
