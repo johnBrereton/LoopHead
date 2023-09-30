@@ -4241,6 +4241,9 @@ Created using IcoMoon - icomoon.io
   .hidden-mobile {
     display: none
   }
+  .padding-mobile1 {
+    padding-left: 80px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -4248,6 +4251,8 @@ Created using IcoMoon - icomoon.io
     display: none
   }
 }
+
+
 
 .navbar .navbar-toggler {
   width: 37px;
